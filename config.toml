@@ -141,7 +141,7 @@ paginate = 10
 	[params.contact]
 		hide  = false
 		title = "Request a personal colourised photograph"
-		content = """Colourised photographs make perfect gifts for friends and family. You can request a quote for a photograph colourisation using the form below.<br><br> \
+		content = """Colourised photographs make the perfect gift for friends and family members no matter the occasion: a birthday, Christmas, father/mother's day or a wedding.<br><br> \
 		Please take note of the following. \
 		<ul> \
 			<li>I have limited hours in a day. If I have a large backlog of requests to fulfill, I may not be able to colourise your photograph</li> \
@@ -149,7 +149,7 @@ paginate = 10
 			<li>I do not yet provide a photo framing service, so I can only provide you with a digital final image</li> \
 			<li>Colourising is not an exact science. Please provide as much information about original colours as possible</li> \
 		</ul> \
-		The following are approximate prices. Please note that they are liable to change on an photo-by-photo basis.<br><br> \
+		The following are approximate prices. Please note that they are liable to change on a photo-by-photo basis.<br><br> \
 		<table> \
 			<tr><td><h3>Type of image</h3></td><td><h3>Price</h3></td></tr> \
 			<tr><td>Single portrait, simple background (e.g: blank wall, simple interior)</td><td>£15</td></tr> \
@@ -160,6 +160,7 @@ paginate = 10
 			<tr><td>4-10 people, complex background</td><td>£40</td></tr> \
 			<tr><td>Anything not covered by the above</td><td>TBC</td></tr> \
 		</table> \
+		Still interested? You can request a quote for your image using the form below. \
 		"""
 
 		# This can be exact coordinates or a searchable address in google maps
