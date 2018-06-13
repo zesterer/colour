@@ -140,15 +140,27 @@ paginate = 10
 
 	[params.contact]
 		hide  = false
-		title = "Order a personal colourised photograph"
+		title = "Request a personal colourised photograph"
 		content = """Colourised photographs make perfect gifts for friends and family. You can request a quote for a photograph colourisation using the form below.<br><br> \
 		Please take note of the following. \
 		<ul> \
 			<li>I have limited hours in a day. If I have a large backlog of requests to fulfill, I may not be able to colourise your photograph</li> \
-			<li>Colourising a photograph can take many hours. The minimum price for a colourised photograph is therefore <b>£15</b></li> \
+			<li>Colourising a photograph can take many hours. While I would prefer to offer colourised photographs at lower prices, I also need to eat</li> \
 			<li>I do not yet provide a photo framing service, so I can only provide you with a digital final image</li> \
 			<li>Colourising is not an exact science. Please provide as much information about original colours as possible</li> \
-		</ul>"""
+		</ul> \
+		The following are approximate prices. Please note that they are liable to change on an photo-by-photo basis.<br><br> \
+		<table> \
+			<tr><td><h3>Type of image</h3></td><td><h3>Price</h3></td></tr> \
+			<tr><td>Single portrait, simple background (e.g: blank wall, simple interior)</td><td>£15</td></tr> \
+			<tr><td>Single portrait, complex background (e.g: outdoor scenery)</td><td>£18</td></tr> \
+			<tr><td>2-3 people, simple background</td><td>£24</td></tr> \
+			<tr><td>2-3 people, complex background</td><td>£28</td></tr> \
+			<tr><td>4-10 people, simple background</td><td>£35</td></tr> \
+			<tr><td>4-10 people, complex background</td><td>£40</td></tr> \
+			<tr><td>Anything not covered by the above</td><td>TBC</td></tr> \
+		</table> \
+		"""
 
 		# This can be exact coordinates or a searchable address in google maps
 		#gmaps_address = "39.7889055,-120.5443524"
