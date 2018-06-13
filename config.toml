@@ -143,7 +143,7 @@ paginate = 10
 			<li>Colourising is a time-consuming process. The minimum price for a colourised image is therefore £15</li> \
 			<li>I do not yet provide a photo framing service, so I can only provide you with a digital final image</li> \
 			<li>I have limited hours in a day. If I have a backlog of requests to fill, I may not have time to colourise your photograph</li> \
-			<li>Colourising is not an exact science. You must provide as much information about colour in the original as possible (e.g: eye and hair colour)</li> \
+			<li>Colourising is not an exact science. Please provide as much information about colour in the original as possible (e.g: eye and hair colour)</li> \
 		</ul>"""
 
 		# This can be exact coordinates or a searchable address in google maps
