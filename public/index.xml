@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Photographs Colourised By Hand</title>
+    <link>https://jsbarretto-colour.netlify.com/</link>
+    <description>Recent content on Photographs Colourised By Hand</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 20 Aug 2017 21:38:52 +0800</lastBuildDate>
+    
+	<atom:link href="https://jsbarretto-colour.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Photos</title>
+      <link>https://jsbarretto-colour.netlify.com/photos/</link>
+      <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
+      
+      <guid>https://jsbarretto-colour.netlify.com/photos/</guid>
+      <description> Colourised Photographs                   </description>
+    </item>
+    
+    <item>
+      <title>Welcome</title>
+      <link>https://jsbarretto-colour.netlify.com/about/</link>
+      <pubDate>Thu, 31 May 2018 15:53:39 +0100</pubDate>
+      
+      <guid>https://jsbarretto-colour.netlify.com/about/</guid>
+      <description> Welcome to my website Welcome. My name is Joshua Barretto. I bring history to life by colourising old photographs. You can see my examples of my work below.
+Services I provide photo colourising services to order
+
+Submit
+ </description>
+    </item>
+    
+    <item>
+      <title>Welcome</title>
+      <link>https://jsbarretto-colour.netlify.com/posts/welcome/</link>
+      <pubDate>Thu, 31 May 2018 15:53:39 +0100</pubDate>
+      
+      <guid>https://jsbarretto-colour.netlify.com/posts/welcome/</guid>
+      <description> Welcome to my website Welcome. My name is Joshua Barretto. I bring history to life by colourising old photographs. You can see my examples of my work below.
+Services I provide photo colourising services to order
+
+Submit
+ </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jsbarretto-colour.netlify.com/about/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsbarretto-colour.netlify.com/about/test/</guid>
+      <description> hi there </description>
+    </item>
+    
+  </channel>
+</rss>

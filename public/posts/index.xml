@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome on Photographs Colourised By Hand</title>
+    <link>https://jsbarretto-colour.netlify.com/posts/</link>
+    <description>Recent content in Welcome on Photographs Colourised By Hand</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 31 May 2018 15:53:39 +0100</lastBuildDate>
+    
+	<atom:link href="https://jsbarretto-colour.netlify.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Welcome</title>
+      <link>https://jsbarretto-colour.netlify.com/posts/welcome/</link>
+      <pubDate>Thu, 31 May 2018 15:53:39 +0100</pubDate>
+      
+      <guid>https://jsbarretto-colour.netlify.com/posts/welcome/</guid>
+      <description> Welcome to my website Welcome. My name is Joshua Barretto. I bring history to life by colourising old photographs. You can see my examples of my work below.
+Services I provide photo colourising services to order
+
+Submit
+ </description>
+    </item>
+    
+  </channel>
+</rss>

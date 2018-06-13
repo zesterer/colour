@@ -1,12 +1,12 @@
----
-title: "Welcome"
-date: 2018-05-31T15:53:39+01:00
-draft: false
----
++++
+date = 2018-05-31T15:53:39+01:00
+title = "Homepage"
+type = "homepage"
++++
 
-# Welcome to my website
+# Welcome
 
-Welcome. My name is Joshua Barretto. I bring history to life by colourising old photographs. You can see my examples of my work below.
+My name is Joshua Barretto. I bring history to life by colourising old photographs by hand. You can see my examples of my work below.
 
 ## Services
 
