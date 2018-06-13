@@ -7,19 +7,23 @@
 	{{ end }}
 	<div class="row" style="width: 100%;">
 		{{ if (isset .Site.Params.contact "email") | and (gt (len .Site.Params.contact.email) 0) }}
-		<div class="8u 12u$(small)" style="width: 100%;">
+		<div class="8u 12u$(small)" style="width: 70%;">
 			<form name="Request a colourisation" method="POST" netlify>
 				<div class="row uniform 50%">
 					<input type="hidden" name="_subject" value="New email from your portfolio" />
-					<div class="6u 12u$(xsmall)" style="width: 100%;"><input type="text" name="name" id="name" placeholder="{{ .Site.Params.contact.form.name }}" required/></div>
-					<div class="6u$ 12u$(xsmall)" style="width: 100%;"><input type="email" name="_replyto" name="email" id="email" placeholder="{{ .Site.Params.contact.form.email }}" required/></div>
-					<div class="6u 12u$(xsmall)">Upload a scan of the original photograph (minimum size of 800px on the longest edge)<br> <input type="file" name="image" id="name" placeholder="{{ .Site.Params.contact.form.name }}" required/></div>
-					<div class="12u$"><textarea name="message" id="message" placeholder="{{ .Site.Params.contact.form.message }}" rows="4" required></textarea></div>
+					<div class="6u 12u$(xsmall)" style="width: 50%;"><input type="text" name="name" id="name" placeholder="{{ .Site.Params.contact.form.name }}" required/></div>
+					<div class="6u$ 12u$(xsmall)" style="width: 50%;"><input type="email" name="_replyto" name="email" id="email" placeholder="{{ .Site.Params.contact.form.email }}" required/></div>
+					<div class="6u 12u$(xsmall)" style="width: 50%; float: left;">{{ .Site.Params.contact.form.image_message }}<br><input type="file" name="image" id="name" required/></div>
+					<div class="12u$" style="width: 50%; float: right;">{{ .Site.Params.contact.form.date_message }}<br><input name="message" type="date" id="date"></input></div>
+					<div class="12u$"><textarea name="message" id="message" placeholder="{{ .Site.Params.contact.form.message }}" rows="3" required></textarea></div>
 					<input type="text" name="_gotcha" style="display:none" />
 
 					<ul class="actions">
 						<li><input type="submit" value="{{ .Site.Params.contact.form.submit }}" /></li>
 					</ul>
+					<div style="vertical-align: top; text-align: center; height: 100%; margin-top: auto; margin-bottom: auto; display: table-cell; top: 50%; position: relative; transform: translate(0, 25%)">
+					<p>{{ .Site.Params.contact.form.additional_message }}</p>
+					</div>
 				</div>
 			</form>
 		</div>

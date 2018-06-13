@@ -1,6 +1,7 @@
 {{ "<!-- portfolio -->" | safeHTML }}
 <section id="two">
 	{{ with .Site.Params.portfolio.title }}<h2>{{ . | markdownify }}</h2>{{ end }}
+	{{ with .Site.Params.portfolio.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
 	<div class="row">
 		<div style = "display: grid; grid-template-columns: 30% 30% 30%; grid-gap: 10px;">
 		{{ range .Site.Params.portfolio.gallery }}

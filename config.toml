@@ -32,7 +32,7 @@ paginate = 10
 		# Replace the avatar with a picture of your own under static/images
 		#avatar = "avatar.jpg"
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "**I'm Joshua**.<br>I bring history to life by<br>colourising old photographs."
+		bio = "**I'm Joshua.**<br>I bring history to life<br>by colourising old<br>photographs."
 		# The icons will be shown if you enter your username
 		twitter = "jsbarretto"
 		dribbble = ""
@@ -50,13 +50,14 @@ paginate = 10
 	[params.about]
 		hide  = false
 		title = "Colourised Photographs"
-		content = """The lack of colour in old photographs is often an obstacle to our appreciation of them. Without colour, we may only experience the past at an arm's distance. Without colour, history becomes less accessible. By colourising old black and white photographs by hand, we can make the past feel as real as the present. Adding colour changes the way we think about the past.<br><br> \
-		<a href="#contact-form">You can order your own colourised photograph here.</a>"""
+		content = """Seen through the lens of a monochrome camera, we tend to experience history at a distance. By colourising images from years long gone, I hope to reconnect both myself and others with the past. You can view a selection of my work below.<br><br> \
+		<a href="#contact-form">Are you looking for a meaningful gift for a family member? You can order personal colourised photograph here.</a>"""
 
 
 	[params.portfolio]
 		hide  = false
 		title = "Colourisations"
+		subtitle = "All monochrome originals are in the public domain"
 
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
@@ -139,14 +140,14 @@ paginate = 10
 
 	[params.contact]
 		hide  = false
-		title = "Order a colourised photograph"
+		title = "Order a personal colourised photograph"
 		content = """Colourised photographs make perfect gifts for friends and family. You can request a quote for a photograph colourisation using the form below.<br><br> \
-		Please be aware of the following. \
+		Please take note of the following. \
 		<ul> \
-			<li>Colourising is a time-consuming process. The minimum price for a colourised image is therefore £15</li> \
+			<li>I have limited hours in a day. If I have a large backlog of requests to fulfill, I may not be able to colourise your photograph</li> \
+			<li>Colourising a photograph can take many hours. The minimum price for a colourised photograph is therefore <b>£15</b></li> \
 			<li>I do not yet provide a photo framing service, so I can only provide you with a digital final image</li> \
-			<li>I have limited hours in a day. If I have a backlog of requests to fill, I may not have time to colourise your photograph</li> \
-			<li>Colourising is not an exact science. Please provide as much information about colour in the original as possible (e.g: eye and hair colour)</li> \
+			<li>Colourising is not an exact science. Please provide as much information about original colours as possible</li> \
 		</ul>"""
 
 		# This can be exact coordinates or a searchable address in google maps
@@ -156,7 +157,7 @@ paginate = 10
 		#	"Nashville, TN 00000",
 		#	"United States"
 		#]
-		#phone = "+447927 037265"
+		phone = "+44 07927 037265"
 
 		# Since this template is static, the contact form uses www.formspree.io as a
 		# proxy. The form makes a POST request to their servers to send the actual
@@ -174,10 +175,13 @@ paginate = 10
 		[params.contact.form]
 			# Set custom strings for the form if your native
 			# language isn't English
-			name = "Name"
-			email = "Email"
-			message = "Description of photograph"
-			submit = "Send message"
+			name = "Your name"
+			email = "Your email address"
+			message = "Description of photograph (please include information like hair, eye and clothing colour)"
+			submit = "Send request"
+			image_message = "Upload a scan of the original photograph"
+			date_message = "When do you need the photograph by?"
+			additional_message = "Remember to check your email account regularly for responses"
 
 # Menu links that appear on the left sidebar
 [[menu.main]]
