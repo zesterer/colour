@@ -2092,22 +2092,25 @@
 
 	ol {
 		list-style: decimal;
-		margin: 0 0 2em 0;
+		margin: 0 2em 2em 0;
 		padding-left: 1.25em;
 	}
 
 		ol li {
 			padding-left: 0.25em;
+			padding-right: 0.25em;
 		}
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 2em 2em 0;
 		padding-left: 1em;
+		padding-right: 1em;
 	}
 
 		ul li {
 			padding-left: 0.5em;
+			padding-right: 0.5em;
 		}
 
 		ul.alt {
@@ -2129,15 +2132,22 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			margin-left: auto;
+			margin-right: auto;
 		}
 
 			ul.icons li {
 				display: inline-block;
-				padding: 0 1em 0 0;
+				padding: 2em 2em 0 0;
 			}
 
+				ul.icons li:first-child {
+					padding-left: auto;
+				}
+
+
 				ul.icons li:last-child {
-					padding-right: 0;
+					padding-right: auto;
 				}
 
 				ul.icons li .icon:before {
