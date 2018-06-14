@@ -4,7 +4,7 @@ title = "Colourised Photographs"
 theme = "hugo-strata-theme"
 disqusShortname = ""
 # Enable Google Analytics by inserting your tracking code
-googleAnalytics = ""
+googleAnalytics = "UA-92710903-2"
 # Define how many posts should appear on a site
 paginate = 10
 
