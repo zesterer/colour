@@ -32,7 +32,7 @@ paginate = 10
 		# Replace the avatar with a picture of your own under static/images
 		#avatar = "avatar.jpg"
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "**I'm Joshua.**<br>I bring history to life<br>by colourising old<br>photographs."
+		bio = "**I'm Joshua.** <br>I bring history to life <br>by colourising old <br>photographs."
 		# The icons will be shown if you enter your username
 		twitter = "jsbarretto"
 		dribbble = ""
@@ -51,13 +51,13 @@ paginate = 10
 		hide  = false
 		title = "Colourised Photographs"
 		content = """Seen through the lens of a monochrome camera, we tend to experience history at a distance. By colourising images from years long gone, I hope to reconnect both myself and others with the past. You can view a selection of my work below.<br><br> \
-		<a href="#contact-form">Are you looking for a meaningful gift for a family member? You can order a personal colourised photograph here.</a>"""
+		<a href="#contact-form">Are you looking for a meaningful gift for a family member? You can get your family photographs colourised here.</a>"""
 
 
 	[params.portfolio]
 		hide  = false
 		title = "Colourisations"
-		subtitle = "All monochrome originals are in the public domain"
+		subtitle = "Mover you cursor over or click a photograph to see it in colour."
 
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
