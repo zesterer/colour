@@ -51,7 +51,7 @@ paginate = 10
 		hide  = false
 		title = "Colourised Photographs"
 		content = """Seen through the lens of a monochrome camera, we tend to experience history at a distance. By colourising images from years long gone, I hope to reconnect both myself and others with the past. You can view a selection of my work below.<br><br> \
-		<a href="#contact-form">Are you looking for a meaningful gift for a family member? You can order personal colourised photograph here.</a>"""
+		<a href="#contact-form">Are you looking for a meaningful gift for a family member? You can order a personal colourised photograph here.</a>"""
 
 
 	[params.portfolio]
