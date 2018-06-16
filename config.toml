@@ -8,6 +8,9 @@ googleAnalytics = "UA-92710903-2"
 # Define how many posts should appear on a site
 paginate = 10
 
+[permalinks]
+   page = "/:filename/"
+
 [params]
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
@@ -57,7 +60,7 @@ paginate = 10
 	[params.portfolio]
 		hide  = false
 		title = "Colourisations"
-		subtitle = "Mover you cursor over or click a photograph to see it in colour."
+		subtitle = "Move your cursor over or click a photograph to see it in colour."
 
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
@@ -200,8 +203,3 @@ paginate = 10
 	#name = "Home"
 	url  = "/"
 	weight = 10
-
-#[[menu.main]]
-#	name = "Blog"
-#	url  = "post/"
-#	weight = 0
