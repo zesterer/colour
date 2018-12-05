@@ -144,12 +144,12 @@ paginate = 10
 	[params.contact]
 		hide  = false
 		title = "Request a personal colourised photograph"
-		content = """Colourised photographs make the perfect gift for friends and family members no matter the occasion: a birthday, Christmas, father/mother's day or a wedding.<br><br> \
+		content = """Colourised photographs make the perfect gift for friends and family members no matter the occasion: birthdays, Christmas, father/mother's day or a wedding.<br><br> \
 		Please take note of the following. \
 		<ul> \
-			<li>I have limited hours in a day. If I have a large backlog of requests to fulfill, I may not be able to colourise your photograph</li> \
-			<li>I do not yet provide a photo framing service, so I can only provide you with a digital final image</li> \
-			<li>Colourising is not an exact science. Please provide as much information about original colours as possible</li> \
+			<li>In the unlikely event that I have a particularly large backlog of requests, I may not have time to colourise your photograph. If this is the case, a full refund will be provided.</li> \
+			<li>I do not yet provide a photo framing service, so I can only provide you with a digital final image.</li> \
+			<li>Colourising is not an exact science. You'll need to provide as much information about original colours as possible.</li> \
 		</ul> \
 		The following are approximate prices. Please note that they are liable to change on a photo-by-photo basis.<br><br> \
 		<table> \
@@ -162,7 +162,7 @@ paginate = 10
 			<tr><td>4-10 people, complex background</td><td>£40</td></tr> \
 			<tr><td>Anything not covered by the above</td><td>TBC</td></tr> \
 		</table> \
-		Still interested? You can request a quote for your image using the form below. \
+		You can request a quote for your image using the form below. \
 		"""
 
 		# This can be exact coordinates or a searchable address in google maps
@@ -194,7 +194,6 @@ paginate = 10
 			email = "Your email address"
 			message = "Description of photograph (please include information like hair, eye and clothing colour)"
 			submit = "Send request"
-			image_message = "Upload a scan of the original photograph"
 			date_message = "When do you need the photograph by?"
 			additional_message = "Remember to check your email account regularly for responses"
 

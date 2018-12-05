@@ -13,10 +13,10 @@
 					<input type="hidden" name="_subject" value="New email from your portfolio" />
 					<div class="6u 12u$(xsmall)" style="width: 50%;"><input type="text" name="name" id="name" placeholder="{{ .Site.Params.contact.form.name }}" required/></div>
 					<div class="6u$ 12u$(xsmall)" style="width: 50%;"><input type="email" name="_replyto" name="email" id="email" placeholder="{{ .Site.Params.contact.form.email }}" required/></div>
-					<div class="6u 12u$(xsmall)" style="width: 50%; float: left;">{{ .Site.Params.contact.form.image_message }}<br><input type="Image" name="image" id="name" required/></div>
 					<div class="12u$" style="width: 50%; float: right;">{{ .Site.Params.contact.form.date_message }}<br><input name="Date Required" type="date" id="date"></input></div>
 					<div class="12u$"><textarea name="message" id="message" placeholder="{{ .Site.Params.contact.form.message }}" rows="3" required></textarea></div>
 					<input type="text" name="_gotcha" style="display:none" />
+					<input type="hidden" name="_language" value="en" />
 
 					<ul class="actions">
 						<li><input type="submit" value="{{ .Site.Params.contact.form.submit }}" /></li>
